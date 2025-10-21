@@ -70,7 +70,10 @@
     background-color: #C4F7E8
 
 .tarjeta--gris
-  background-color: #C4F7E8
+  background-color: #7D4A01
+
+.tarjeta--gris > span
+  color: #ffff !important
 
 //- tarjetas cambio de color HOVER
 .BGIMG01,  .tarjeta--BG01, .bg-c1, .tarjeta--BG02, .tarjeta--BG03, .tarjeta.tarjeta--gris.fondo,
@@ -226,6 +229,9 @@
 
 .crd_hover_txt .crd_hover_txt--body
   padding: 1.5rem 0.8rem !important
+
+.text-sans-serif-calibri
+  font-family: Calibri, sans-serif;
               
 //- acordion
 .acordion__accion__btn--b
@@ -257,3 +263,62 @@
 
 .lista-ol--cuadro__vineta
   color: #000 !important
+
+.tarjeta-slide
+  height: 100%
+  position: relative
+  overflow: hidden
+  &__img
+    position: absolute
+    inset: 0
+    background-size: cover
+    background-position: center
+    transform: translate(0,0)
+    transition: transform 0.3s ease-in-out
+  
+
+  &.arriba
+    &:hover
+      .tarjeta-slide
+        &__img
+          transform: translate(0,-100%)
+
+  &.abajo
+    &:hover
+      .tarjeta-slide
+        &__img
+          transform: translate(0,100%)
+
+  &.izquierda
+    &:hover
+      .tarjeta-slide
+        &__img
+          transform: translate(-100%,0)
+
+  &.derecha
+    &:hover
+      .tarjeta-slide
+        &__img
+          transform: translate(100%,0)
+
+  &.color-primario
+    .tarjeta-slide
+      &__img
+        background-color: $color-primario
+
+  &.color-secundario
+    .tarjeta-slide
+      &__img
+        background-color: $color-secundario
+
+  &.color-acento-contenido
+    .tarjeta-slide
+      &__img
+        background-color: $color-acento-contenido
+
+  &.color-acento-botones
+    .tarjeta-slide
+      &__img
+        background-color: $color-acento-botones
+
+

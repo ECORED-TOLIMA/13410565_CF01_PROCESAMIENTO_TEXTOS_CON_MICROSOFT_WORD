@@ -99,42 +99,42 @@
               p Adicionalmente, existen algunas alternativas de código abierto como puede ser LibreOffice Writer que ofrece capacidades similares.
             .col-lg-7.col-12.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img-05.png' style="width: 500px" ,alt='').m-auto
+                img(src='@/assets/curso/temas/tema1/img-05.png' ,alt='').m-auto
           .row.justify-content-center
             .col-lg-5.order-lg-1.order-2
               h4 Procesadores en línea
-              p Google Docs ha popularizado este modelo, permitiendo la creación y edición de documentos directamente desde el navegador web, con énfasis en la colaboración en tiempo real y el almacenamiento en la nube (Álvarez & Gisbert, 2015). Microsoft Office Online ofrece versiones web de sus aplicaciones de escritorio, permitiendo acceso multiplataforma.
+              p Google Docs ha popularizado este modelo, permitiendo la creación y edición de documentos directamente desde el navegador #[em web], con énfasis en la colaboración en tiempo real y el almacenamiento en la nube (Álvarez & Gisbert, 2015). Microsoft Office Online ofrece versiones #[em web] de sus aplicaciones de escritorio, permitiendo acceso multiplataforma.
             .col-lg-7.col-12.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img-06.png' style="width: 500px" ,alt='').m-auto
+                img(src='@/assets/curso/temas/tema1/img-06.png' ,alt='').m-auto
           .row.justify-content-center
             .col-lg-5.order-lg-1.order-2
               h4 Pages de Apple
               p El procesador de texto nativo para dispositivos macOS e iOS, conocido por su interfaz intuitiva y sus plantillas de diseño.
             .col-lg-7.col-12.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img-07.png' style="width: 500px" ,alt='').m-auto
+                img(src='@/assets/curso/temas/tema1/img-07.png' ,alt='').m-auto
           .row.justify-content-center
             .col-lg-5.order-lg-1.order-2
               h4 Procesadores especializados
-              p Existen herramientas diseñadas para necesidades específicas, como LaTeX para documentos científicos y técnicos con alta complejidad matemática o Markdown para escritura simplificada con énfasis en la portabilidad del contenido y muy utilizado en equipos de desarrollo de software.
+              p Existen herramientas diseñadas para necesidades específicas, como LaTeX para documentos científicos y técnicos con alta complejidad matemática o Markdown para escritura simplificada con énfasis en la portabilidad del contenido y muy utilizado en equipos de desarrollo de #[em software].
             .col-lg-7.col-12.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img-08.png' style="width: 500px" ,alt='').m-auto
+                img(src='@/assets/curso/temas/tema1/img-08.png' ,alt='').m-auto
           .row.justify-content-center
             .col-lg-5.order-lg-1.order-2
               h4 Scrivener
               p Popular entre escritores y novelistas por sus herramientas para organizar ideas, notas y estructuras narrativas complejas.
             .col-lg-7.col-12.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img-09.png' style="width: 500px" ,alt='').m-auto
+                img(src='@/assets/curso/temas/tema1/img-09.png' ,alt='').m-auto
 
     Separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_1_3 1.3. Licenciamiento
 
-    p.mb-5 El modelo de licenciamiento determina la forma de cómo los usuarios pueden acceder, utilizar y distribuir el software en este caso, los procesadores de texto. Comprender estos modelos es fundamental para tomar decisiones informadas en contextos educativos y organizacionales y determinar cuál es el más acorde. Normalmente, se suelen clasificar en tres grandes categorías:
+    p.mb-5 El modelo de licenciamiento determina la forma de cómo los usuarios pueden acceder, utilizar y distribuir el #[em software] en este caso, los procesadores de texto. Comprender estos modelos es fundamental para tomar decisiones informadas en contextos educativos y organizacionales y determinar cuál es el más acorde. Normalmente, se suelen clasificar en tres grandes categorías:
 
     .tarjeta--BG01.p-4.px-md-5.mb-5
       .tarjeta.tarjeta--FBG01.p-4.my-4(data-aos="fade-left")
@@ -183,7 +183,7 @@
           tr(data-aos="fade-right")
             td.text-center Estilos
             td Completo, integrado a navegación, plantillas.
-            td Completo, integrado a navegación, plantillas. Completo, estilos de página/tabla/lista.
+            td Completo, estilos de página/tabla/lista.
             td Estilos de párrafo y títulos.
           tr(data-aos="fade-right")
             td.text-center(style="background-color: #F6F6F6;") Secciones

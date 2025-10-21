@@ -65,21 +65,21 @@
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/img-06.svg' alt="Imagen decorativa")
-          .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#DBE4F4")
+          .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#DBE4F4; font-family:'Times New Roman', serif;")
             h4.text-center.mt-5(style="color:#12263F") Serif (Times New Roman)
-            p.text-center.mb-0(style="color:#12263F") La tecnología educativa transforma el aprendizaje en el siglo XXI.
+            p.text-center.mb-0(style="color:#12263F; font-family:'Times New Roman', serif;") La tecnología educativa transforma el aprendizaje en el siglo XXI.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/img-07.svg' alt="Imagen decorativa")
-          .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#DBE4F4")
+          .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#DBE4F4; font-family:'Arial', sans-serif;")
             h4.text-center.mt-5(style="color:#12263F") Sans Serif (Arial)
-            p.text-center.mb-0(style="color:#12263F") La tecnología educativa transforma el aprendizaje en el siglo XXI.
+            p.text-center.mb-0(style="color:#12263F; font-family:'Arial', sans-serif;") La tecnología educativa transforma el aprendizaje en el siglo XXI.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/img-08.svg' alt="Imagen decorativa")
-          .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#DBE4F4")
+          .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#DBE4F4;")
             h4.text-center.mt-5(style="color:#12263F") Sans Serif (Calibri)
-            p.text-center.mb-0(style="color:#12263F") La tecnología educativa transforma el aprendizaje en el siglo XXI.
+            p.text-center.mb-0(style="color:#12263F; font-family:'Calibri', sans-serif;") La tecnología educativa transforma el aprendizaje en el siglo XXI.
 
     .row.align-items-center.mb-4(data-aos="zoom-in")
       .col-auto.pe-0(style="z-index:2")
@@ -99,25 +99,25 @@
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema2/img-09.svg' alt='AvatarTop')
           h4 10 puntos
-          p.mb-0 La tecnología educativa transforma el aprendizaje en el siglo XXI.
+          h6.mb-0 La tecnología educativa transforma el aprendizaje en el siglo XXI.
         .tarjeta.tarjeta--BG03.p-4
           .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema2/img-10.svg' alt='AvatarTop')
           h4 12 puntos
-          p.mb-0 La tecnología educativa transforma el aprendizaje en el siglo XXI.
+          h5.mb-0 La tecnología educativa transforma el aprendizaje en el siglo XXI.
         .tarjeta.tarjeta--BG03.p-4
           .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema2/img-11.svg' alt='AvatarTop')
           h4 14 puntos
-          p.mb-0 La tecnología educativa transforma el aprendizaje en el siglo XXI.
+          h4.mb-0 La tecnología educativa transforma el aprendizaje en el siglo XXI.
         .tarjeta.tarjeta--BG03.p-4
           .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema2/img-12.svg' alt='AvatarTop')
           h4 18 puntos (título)
-          p.mb-0 La tecnología educativa transforma el aprendizaje en el siglo XXI.
+          h3.mb-0 La tecnología educativa transforma el aprendizaje en el siglo XXI.
     
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-12
@@ -213,13 +213,13 @@
                   li.mb-0
                     i.lista-ul__vineta(style="color: #6EC7E3; font-size: 2rem")
                     | #[b Ejemplo:]
-                p.mb-0 La tecnología educativa transforma el aprendizaje en el siglo XXI, mediante herramientas digitales innovadoras que facilitan la comunicación entre estudiantes y docentes. Los procesadores de texto, plataformas virtuales y recursos multimedia, permiten crear experiencias de aprendizaje más dinámicas y personalizadas. Esta revolución digital ha modificado sustancialmente los métodos tradicionales de enseñanza, promoviendo la colaboración y el acceso universal al conocimiento.
+                p.mb-0 El texto se posiciona en el centro del área disponible, utilizada típicamente para títulos, encabezados y elementos que requieren énfasis visual simétrico (Martínez de Sousa, 2001).
             .col-12.mb-0
               figure
                 img(src='@/assets/curso/temas/tema2/img-16.png', alt='Imagen decorativa')
           .row.mb-0(numero="3" titulo="Alineación a la derecha")
             .col-12
-              p Menos común en el cuerpo del texto, se emplea ocasionalmente para fechas, firmas o elementos de diseño específicos en documentos formales.
+              p La tecnología educativa transforma el aprendizaje en el siglo XXI, mediante herramientas digitales innovadoras que facilitan la comunicación entre estudiantes y docentes. Los procesadores de texto, plataformas virtuales y recursos multimedia, permiten crear experiencias de aprendizaje más dinámicas y personalizadas. Esta revolución digital ha modificado sustancialmente los métodos tradicionales de enseñanza, promoviendo la colaboración y el acceso universal al conocimiento.
             .col-12.mb-4
               .tarjeta.tarjeta--blanca.p-4
                 ul.lista-ul.mb-0.mb-3
@@ -240,6 +240,7 @@
                     i.lista-ul__vineta(style="color: #6EC7E3; font-size: 2rem")
                     | #[b Ejemplo:]
                 p.mb-0 La tecnología educativa transforma el aprendizaje en el siglo XXI, mediante herramientas digitales innovadoras que facilitan la comunicación entre estudiantes y docentes. Los procesadores de texto, plataformas virtuales y recursos multimedia, permiten crear experiencias de aprendizaje más dinámicas y personalizadas. Esta revolución digital ha modificado sustancialmente los métodos tradicionales de enseñanza, promoviendo la colaboración y el acceso universal al conocimiento.
+
             .col-12.mb-0
               figure
                 img(src='@/assets/curso/temas/tema2/img-18.png', alt='Imagen decorativa')
@@ -274,21 +275,21 @@
               .col-lg-6.col-6
                 figure
                   img(src='@/assets/curso/temas/tema2/img-19.svg', alt='Imagen decorativa')
-            h4.text-center.mb-5 Sangría de primera línea
+            h4.text-center.mb-4 Sangría de primera línea
             p.mb-0 Desplaza únicamente la primera línea de cada párrafo hacia la derecha, tradicionalmente entre 1.27 cm (0.5 pulgadas) en documentos académicos. Esta convención señala visualmente el inicio de nuevos párrafos, sin requerir espacio adicional entre ellos.
           .col-xl.col-md-6.tarjeta.color-secundario.p-5(style="background-color:#D5C6EA")
             .row.justify-content-center.mb-3
               .col-lg-6.col-6
                 figure
                   img(src='@/assets/curso/temas/tema2/img-20.svg', alt='Imagen decorativa')
-            h4.text-center.mb-5 Sangría francesa
+            h4.text-center.mb-4 Sangría francesa
             p.mb-0 También llamada sangría colgante, desplaza todas las líneas excepto la primera. Es estándar en listas de referencias bibliográficas, donde facilita la identificación rápida del inicio de cada entrada (American Psychological Association, 2020).
           .col-xl.col-md-6.tarjeta.color-secundario.p-5(style="background-color:#6EC7E3")
             .row.justify-content-center.mb-3
               .col-lg-6.col-6
                 figure
                   img(src='@/assets/curso/temas/tema2/img-21.svg', alt='Imagen decorativa')
-            h4.text-center.mb-5 Sangría izquierda y derecha
+            h4.text-center.mb-4 Sangría izquierda y derecha
             p.mb-0 Desplaza todo el párrafo respecto a los márgenes, utilizada para citas textuales largas (generalmente de 40 palabras o más en formato APA) o para crear bloques de texto destacados.
     
     .row.align-items-center.mb-4(data-aos="zoom-in")
@@ -305,7 +306,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/erx0G6TATnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     Separador
 
@@ -326,7 +327,7 @@
               img(src='@/assets/curso/temas/tema2/icono.svg', style="width: 45px" ,alt='').m-auto
           .col-lg-auto.col-9.titulo01(style="z-index:1")
             .p-1
-              h3.mb-0.ms-3 A. Interlineado simple:
+              h3.mb-0.ms-3 A. Interlineado simple
         p Espacio mínimo entre líneas, utilizado cuando se requiere maximizar el contenido en espacio limitado, aunque puede reducir la legibilidad en textos extensos. En la siguiente figura, se aprecia la configuración del párrafo y un ejemplo con el contenido previamente relacionado:
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
@@ -387,7 +388,7 @@
             .p-1
               h3.mb-0.ms-3 Ejemplo
         .color-primario.p-4.quote-card(style="background-color:#D2EEF6;")
-          p.mb-0 “La tecnología educativa transforma el aprendizaje en el siglo XXI, mediante herramientas digitales innovadoras que facilitan la comunicación entre estudiantes y docentes. Los procesadores de texto, plataformas virtuales y recursos multimedia, permiten crear experiencias de aprendizaje más dinámicas y personalizadas. Esta revolución digital ha modificado sustancialmente los métodos tradicionales de enseñanza, promoviendo la colaboración y el acceso universal al conocimiento.”
+          p.mb-0(style="line-height:2;") “La tecnología educativa transforma el aprendizaje en el siglo XXI, mediante herramientas digitales innovadoras que facilitan la comunicación entre estudiantes y docentes. Los procesadores de texto, plataformas virtuales y recursos multimedia, permiten crear experiencias de aprendizaje más dinámicas y personalizadas. Esta revolución digital ha modificado sustancialmente los métodos tradicionales de enseñanza, promoviendo la colaboración y el acceso universal al conocimiento.”
 
     .row.align-items-center.mb-4(data-aos="zoom-in")
       .col-auto.pe-0(style="z-index:2")

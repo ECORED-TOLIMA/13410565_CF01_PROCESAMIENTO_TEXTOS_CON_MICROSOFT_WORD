@@ -29,21 +29,21 @@
               .col-lg-6.col-6
                 figure
                   img(src='@/assets/curso/temas/tema3/img-02.svg', alt='Imagen decorativa')
-            h4.text-center.mb-5 Consistencia
+            h4.text-center.mb-4 Consistencia
             p.mb-0 Se garantiza que todos los elementos similares (ej. todos los títulos principales), tengan exactamente el mismo formato en todo el documento. Esto es crucial para la imagen de marca y la profesionalidad.
           .col-xl.col-md-6.tarjeta.color-secundario.p-5(style="background-color:#D5C6EA")
             .row.justify-content-center.mb-3
               .col-lg-6.col-6
                 figure
                   img(src='@/assets/curso/temas/tema3/img-03.svg', alt='Imagen decorativa')
-            h4.text-center.mb-5 Eficiencia
+            h4.text-center.mb-4 Eficiencia
             p.mb-0 Cambiar el formato de todos los subtítulos (ej. cambiar el color de azul a negro), es una tarea más fácil con los estilos, al no tener que cambiar uno por uno. Simplemente se modifica el estilo "Título 2" y todos los textos con ese estilo se actualizarán automáticamente. Esto puede ahorrar horas de trabajo en documentos largos.
           .col-xl.col-md-6.tarjeta.color-secundario.p-5(style="background-color:#6EC7E3")  
             .row.justify-content-center.mb-3
               .col-lg-6.col-6
                 figure
                   img(src='@/assets/curso/temas/tema3/img-04.svg', alt='Imagen decorativa')
-            h4.text-center.mb-5 Estructura y automatización
+            h4.text-center.mb-4 Estructura y automatización
             p.mb-0 Aplicar estilos de título (Título 1, Título 2, etc.) no solo formatea el texto, sino que también crea una estructura jerárquica en el documento. Word utiliza esta estructura para generar automáticamente una tabla de contenido, navegar por el documento usando el panel de navegación y mejorar la accesibilidad para lectores de pantalla.
 
     Separador
@@ -57,27 +57,27 @@
       .col-lg-10
         PasosA.color-acento-contenido.mb-4(tipo="n")
           .row.justify-content-center
-            .col-lg-8.order-lg-1.order-2(data-aos="fade-down")
+            .col-lg-7.order-lg-1.order-2(data-aos="fade-down")
               h4 Estilos de párrafo
               p Afectan todo el contenido del párrafo, incluyendo fuente, alineación, sangría, espaciado e interlineado. Son utilizados para estructurar documentos.
-            .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-up")
+            .col-lg-5.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-up")
               img(src='@/assets/curso/temas/tema3/img-05.png', alt="Imagen decorativa")          
           .row.justify-content-center
-            .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-up")
+            .col-lg-5.col-8.mb-lg-0.mb-4(data-aos="fade-up")
               img(src='@/assets/curso/temas/tema3/img-06.png', alt="Imagen decorativa")          
-            .col-lg-8(data-aos="fade-down")
+            .col-lg-7(data-aos="fade-down")
               h4 Estilos de carácter
               p Se aplican a segmentos específicos de texto dentro de un párrafo, sin afectar sus propiedades estructurales. Muy útiles para énfasis, terminología técnica o formatos especiales como hipervínculos a sitios #[em web.]
           .row.justify-content-center
-            .col-lg-8.order-lg-1.order-2(data-aos="fade-down")
+            .col-lg-7.order-lg-1.order-2(data-aos="fade-down")
               h4 Estilos de tabla
               p Definen el formato visual de tablas, incluyendo bordes, sombreado, fuentes y alineación de celdas, permitiendo consistencia en la presentación de datos tabulares (Martínez de Sousa, 2001).
-            .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-up")
+            .col-lg-5.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-up")
               img(src='@/assets/curso/temas/tema3/img-07.png', alt="Imagen decorativa")          
           .row.justify-content-center
-            .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-up")
+            .col-lg-5.col-8.mb-lg-0.mb-4(data-aos="fade-up")
               img(src='@/assets/curso/temas/tema3/img-08.png', alt="Imagen decorativa")          
-            .col-lg-8(data-aos="fade-down")
+            .col-lg-7(data-aos="fade-down")
               h4 Estilos de lista
               p Controlan el formato de listas numeradas y con viñetas, incluyendo el tipo de numeración, sangría y espaciado entre elementos.
     
@@ -120,7 +120,7 @@
           img(src='@/assets/curso/temas/tema3/img-10.svg', alt='Imagen decorativa')
 
       .col-lg-7(data-aos="fade-left")
-        .cajon.cajon.C01.p-4.mb-3
+        .cajon.cajon.C01.p-1.mb-3
           ol.lista-ol--cuadro.lista-ol--separador
             li 
               .lista-ol--cuadro__vineta
@@ -171,50 +171,59 @@
 
     p.mb-4 Una empresa necesita que todos sus informes trimestrales tengan la misma apariencia. En lugar de dar instrucciones a cada empleado, el departamento de TI crea una plantilla de Word (.docx) con los siguientes estilos predefinidos: 
 
-    .row.justify-content-center.mb-5
-      .col-xl-3.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
-          .indicador--hover(v-if="mostrarIndicador")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema3/img-13.png", alt="")
-          .crd_hover_txt--body
-            h5.t1.mb-3 Título 1 (Informe trimestral)
-            h5.t2.mb-2 Título 1 (Informe trimestral)
-            p.mb-0 Fuente Arial Black, 18 pts., Azul corporativo, espaciado anterior 24 pts.
-
-      .col-xl-3.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
-          .indicador--hover(v-if="mostrarIndicador")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema3/img-14.png", alt="")
-          .crd_hover_txt--body
-            h5.t1.mb-3 Título 2 (Sección)
-            h5.t2.mb-2 Título 2 (Sección)
-            p.mb-0 Fuente Arial, 14 pts., Negrita, Negro, espaciado anterior 12 pts.
-
-      .col-xl-3.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
-          .indicador--hover(v-if="mostrarIndicador")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema3/img-15.png", alt="")
-          .crd_hover_txt--body
-            h5.t1.mb-3 Normal (Cuerpo de texto)
-            h5.t2.mb-2 Normal (Cuerpo de texto)
-            p.mb-0 Fuente Calibri, 11 pts., Justificado, Interlineado 1.5, espaciado posterior 8 pts., sangría de primera línea 1.25 cm.
-            
-      .col-xl-3.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
-          .indicador--hover(v-if="mostrarIndicador")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema3/img-16.png", alt="")
-          .crd_hover_txt--body
-            h5.t1.mb-3 Leyenda de Imagen
-            h5.t2.mb-2 Leyenda de Imagen
-            p.mb-0 Fuente Calibri, 9 pts., Cursiva, Centrado.
+    .row.justify-content-center.mb-5(data-aos="fade-left")
+      .col-md-8.col-lg-6.col-xl-5.col-xxl-3.mb-4.mb-xxl-0
+        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              .row.justify-content-center.mb-3
+                .col-auto
+                  .px-2
+                    p.text-center.mb-0 #[b Título 1 (Informe trimestral)]
+              p.mb-0 Fuente Arial Black, 18 pts., Azul corporativo, espaciado anterior 24 pts.
+              br
+              br
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-17.png')})`}")
+      .col-md-8.col-lg-6.col-xl-5.col-xxl-3.mb-4.mb-xxl-0
+        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              .row.justify-content-center.mb-3
+                .col-auto
+                  .px-2
+                    p.text-center.mb-0 #[b Título 2 (Sección)]
+              p.mb-0 Fuente Arial, 14 pts., Negrita, Negro, espaciado anterior 12 pts.
+              br
+              br
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-18.png')})`}")
+      .col-md-8.col-lg-6.col-xl-5.col-xxl-3.mb-4.mb-xxl-0
+        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              .row.justify-content-center.mb-3
+                .col-auto
+                  .px-2
+                    p.text-center.mb-0 #[b Normal (Cuerpo de texto)]
+              p.mb-0 Fuente Calibri, 11 pts., Justificado, Interlineado 1.5, espaciado posterior 8 pts., sangría de primera línea 1.25 cm.
+              br
+              br
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-19.png')})`}")
+      .col-md-8.col-lg-6.col-xl-5.col-xxl-3.mb-4.mb-xxl-0
+        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              .row.justify-content-center.mb-3
+                .col-auto
+                  .px-2
+                    p.text-center.mb-0 #[b Leyenda de Imagen]
+              p.mb-0 Fuente Calibri, 9 pts., Cursiva, Centrado.
+              br
+              br
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-20.png')})`}")
     
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.col-12

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Configuración de estilos en Microsoft Word',
     descripcionCurso:
-      'Por medio de este componente formativo, aprenderás a utilizar funcionalidades esenciales como formatos, estilos, secciones y encabezados para transformar textos simples en informes, manuales y propuestas de alta calidad. Al finalizar, serás capaz de gestionar la estructura y apariencia de cualquier documento, asegurando una presentación clara, coherente y alineada con los requerimientos institucionales o académicos según el contexto de aplicación',
+      'Por medio de este componente formativo, se aprenderá a utilizar funcionalidades esenciales como formatos, estilos, secciones y encabezados para transformar textos simples en informes, manuales y propuestas de alta calidad. Al finalizar, se estará en capacidad de gestionar la estructura y apariencia de cualquier documento, asegurando una presentación clara, coherente y alineada con los requerimientos institucionales o académicos según el contexto de aplicación.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     imagenesDecorativasBanner: [
       {

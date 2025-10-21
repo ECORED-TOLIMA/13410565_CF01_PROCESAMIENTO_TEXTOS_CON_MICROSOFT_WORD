@@ -88,7 +88,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/XiXZf0DQBvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     Separador
 
@@ -140,7 +140,7 @@
                 | Sin encabezado ni pie de página.
               li(data-aos="fade-right") 
                 i.lista-ul__vineta
-                | #[em Se inserta un Salto de Sección (Página Siguiente) al final.]
+                | Se inserta un Salto de Sección (Página Siguiente) al final.
         .row.justify-content-center(titulo="Sección 2")
           .col-lg-5.col-10.mb-lg-0.mb-4
             figure
@@ -156,7 +156,7 @@
                 | Pie de página con numeración en números romanos (i, ii, iii...).
               li(data-aos="fade-right") 
                 i.lista-ul__vineta
-                | #[em Se inserta un Salto de Sección (Página Siguiente) al final.]
+                | Se inserta un Salto de Sección (Página Siguiente) al final.
         .row.justify-content-center(titulo="Sección 3")
           .col-lg-5.col-10.mb-lg-0.mb-4
             figure
@@ -175,7 +175,7 @@
                 | Pie de página con numeración en números arábigos (1, 2, 3...), reiniciando en 1.
               li(data-aos="fade-right") 
                 i.lista-ul__vineta
-                | #[em Se inserta un Salto de Sección (Página Siguiente) al final.]
+                | Se inserta un Salto de Sección (Página Siguiente) al final.
         .row.justify-content-center(titulo="Sección 4")
           .col-lg-5.col-10.mb-lg-0.mb-4
             figure
@@ -194,7 +194,7 @@
                 | La numeración de página continúa desde la sección anterior.
               li(data-aos="fade-right") 
                 i.lista-ul__vineta
-                | #[em Se inserta un Salto de Sección (Página Siguiente) al final.]
+                | Se inserta un Salto de Sección (Página Siguiente) al final.
         .row.justify-content-center(titulo="Sección 5")
           .col-lg-5.col-10.mb-lg-0.mb-4
             figure

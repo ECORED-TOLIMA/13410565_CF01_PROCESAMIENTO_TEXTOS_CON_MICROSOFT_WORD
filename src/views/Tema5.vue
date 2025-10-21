@@ -108,31 +108,31 @@
       .tarjeta.tarjeta--FBG01.p-4.my-4(data-aos="fade-left")
         PasosB.color-acento-botones
           .row
-            .col-lg-6.order-2.order-lg-1
+            .col-lg-4.order-2.order-lg-1
               h4(style="color:#000 !important") Posicionamiento y formato
               p.mb-0(style="color:#000 !important") Los números de página pueden posicionarse en diferentes ubicaciones (centro, izquierda, derecha) y combinarse con texto adicional. El formato común "Página X de Y" proporciona contexto sobre la extensión total del documento.
-            .col-lg-6.col-10.order-1.order-lg-2.mb-4  
+            .col-lg-8.col-10.order-1.order-lg-2.mb-4  
               figure
                 img(src='@/assets/curso/temas/tema5/img-04.png', alt='Imagen decorativa')
           .row
-            .col-lg-6.order-2.order-lg-1
+            .col-lg-4.order-2.order-lg-1
               h4(style="color:#000 !important") Numeración por secciones
               p.mb-0(style="color:#000 !important") Las secciones permiten reiniciar la numeración o utilizar formatos diferentes en distintas partes del documento. Por ejemplo, un documento académico puede usar numeración romana (i, ii, iii) en las páginas preliminares y reiniciar con numeración arábiga (1, 2, 3) al iniciar la introducción.
-            .col-lg-6.col-10.order-1.order-lg-2.mb-4
+            .col-lg-8.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema5/img-05.png', alt='Imagen decorativa')
           .row
-            .col-lg-6.order-2.order-lg-1
+            .col-lg-4.order-2.order-lg-1
               h4(style="color:#000 !important") Primera página diferente
               p.mb-0(style="color:#000 !important") Muchos documentos profesionales y académicos omiten el número de página en la portada o primera página, aunque esta se cuenta para la numeración. Los procesadores de texto permiten configurar esta opción mediante la función "Primera página diferente" en las opciones de encabezado/pie de página.
-            .col-lg-6.col-10.order-1.order-lg-2.mb-4
+            .col-lg-8.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema5/img-06.png', alt='Imagen decorativa')
           .row
-            .col-lg-6.order-2.order-lg-1
+            .col-lg-4.order-2.order-lg-1
               h4(style="color:#000 !important") Páginas pares e impares
               p.mb-0(style="color:#000 !important") En documentos diseñados para impresión a doble cara, es común posicionar los números de página en el margen exterior (izquierda en páginas pares, derecha en impares), para facilitar su visualización cuando el documento está encuadernado (Martínez de Sousa, 2001).
-            .col-lg-6.col-10.order-1.order-lg-2.mb-4
+            .col-lg-8.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema5/img-07.png', alt='Imagen decorativa')
 
