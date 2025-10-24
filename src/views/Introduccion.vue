@@ -14,7 +14,7 @@
         figure
           img(src='@/assets/curso/temas/introduccion/img-01.svg', alt='Imagen decorativa')
       .col-lg-8.mb-lg-0.mb-4(data-aos="fade-left")
-        p Actualmente, en el entorno profesional y académico la creación de documentos va más allá de la simple escritura. La forma en que la información se presenta, se estructurada y se formatea, es un reflejo directo de la profesionalidad, el orden y la claridad del mensaje que se desea transmitir. Un documento bien organizado no solo es más fácil de leer y comprender, sino que también fortalece la imagen institucional y asegura la coherencia en todas las comunicaciones.
+        p Actualmente, en el entorno profesional y académico la creación de documentos va más allá de la simple escritura. La forma en que la información se presenta, se estructura y se formatea, es un reflejo directo de la profesionalidad, el orden y la claridad del mensaje que se desea transmitir. Un documento bien organizado no solo es más fácil de leer y comprender, sino que también fortalece la imagen institucional y asegura la coherencia en todas las comunicaciones.
         p Microsoft Word es la herramienta de procesamiento de texto líder en el mercado, pero su verdadero poder no reside en sus funciones básicas, sino en su capacidad para gestionar documentos complejos de manera eficiente y estandarizada. El dominio de las diferentes funcionalidades de la herramienta como los estilos, las secciones y los formatos de párrafo, es lo que distingue a un usuario básico de un profesional capaz de producir documentos de alta calidad con consistencia y rapidez.
 
     .row.justify-content-center.mb-5(data-aos="fade-right")

@@ -137,7 +137,7 @@
             ul.lista-ul
               li(data-aos="fade-right") 
                 i.lista-ul__vineta
-                | Sin encabezado ni pie de página.
+                | Sin encabezado, ni pie de página.
               li(data-aos="fade-right") 
                 i.lista-ul__vineta
                 | Se inserta un Salto de Sección (Página Siguiente) al final.

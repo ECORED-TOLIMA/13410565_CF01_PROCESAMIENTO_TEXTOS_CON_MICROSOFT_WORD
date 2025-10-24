@@ -74,7 +74,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/82mM2pvzfO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     Separador
 
@@ -93,14 +93,14 @@
           template(v-slot:imagen)
             figure.mb-5
               img(src='@/assets/curso/temas/tema5/img-03-v01.svg', alt="Imagen decorativa")
-          .tarjeta.color-secundario.p-3(x="19.5%" y="58%" numero="+")(style="background-color:#ECE1F9;")
+          .tarjeta.color-secundario.p-3(x="17%" y="58%" numero="+")(style="background-color:#ECE1F9;")
             p.mb-0(style="color:#000 !important") El formato más común para el cuerpo principal de documentos.
-          .tarjeta.color-acento-botones.p-3(x="40%" y="63.5%" numero="+")(style="background-color:#ECE1F9;")
+          .tarjeta.color-acento-botones.p-3(x="39.5%" y="63.5%" numero="+")(style="background-color:#ECE1F9;")
             p.mb-0(style="color:#000 !important") Utilizados en documentos formales para secciones principales.
-          .tarjeta.color-acento-botones.p-3(x="60.5%" y="58%" numero="+")(style="background-color:#ECE1F9;")
+          .tarjeta.color-acento-botones.p-3(x="61%" y="58%" numero="+")(style="background-color:#ECE1F9;")
             p.mb-0(style="color:#000 !important") Menos comunes, utilizadas en apéndices o anexos (American Psychological Association, 2020).
-          .tarjeta.color-acento-botones.p-3(x="81%" y="63.5%" numero="+")(style="background-color:#ECE1F9;")
-            p.mb-0(style="color:#000 !important") Menos comunes, utilizadas en apéndices o anexos (American Psychological Association, 2020).
+          .tarjeta.color-acento-botones.p-3(x="82%" y="63.5%" numero="+")(style="background-color:#ECE1F9;")
+            p.mb-0(style="color:#000 !important") Tradicionales para secciones preliminares en documentos académicos.
     
     p.text-center.mb-4 De igual manera, se encuentran las siguientes opciones:
 

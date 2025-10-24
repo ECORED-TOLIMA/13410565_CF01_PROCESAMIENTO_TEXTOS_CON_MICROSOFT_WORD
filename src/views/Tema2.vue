@@ -213,20 +213,20 @@
                   li.mb-0
                     i.lista-ul__vineta(style="color: #6EC7E3; font-size: 2rem")
                     | #[b Ejemplo:]
-                p.mb-0 El texto se posiciona en el centro del área disponible, utilizada típicamente para títulos, encabezados y elementos que requieren énfasis visual simétrico (Martínez de Sousa, 2001).
+                p.text-center.mb-0 La tecnología educativa transforma el aprendizaje en el siglo XXI, mediante herramientas digitales innovadoras que facilitan la comunicación entre estudiantes y docentes. Los procesadores de texto, plataformas virtuales y recursos multimedia, permiten crear experiencias de aprendizaje más dinámicas y personalizadas. Esta revolución digital ha modificado sustancialmente los métodos tradicionales de enseñanza, promoviendo la colaboración y el acceso universal al conocimiento.
             .col-12.mb-0
               figure
                 img(src='@/assets/curso/temas/tema2/img-16.png', alt='Imagen decorativa')
           .row.mb-0(numero="3" titulo="Alineación a la derecha")
             .col-12
-              p La tecnología educativa transforma el aprendizaje en el siglo XXI, mediante herramientas digitales innovadoras que facilitan la comunicación entre estudiantes y docentes. Los procesadores de texto, plataformas virtuales y recursos multimedia, permiten crear experiencias de aprendizaje más dinámicas y personalizadas. Esta revolución digital ha modificado sustancialmente los métodos tradicionales de enseñanza, promoviendo la colaboración y el acceso universal al conocimiento.
+              p Menos común en el cuerpo del texto, se emplea ocasionalmente para fechas, firmas o elementos de diseño específicos en documentos formales.
             .col-12.mb-4
               .tarjeta.tarjeta--blanca.p-4
                 ul.lista-ul.mb-0.mb-3
                   li.mb-0
                     i.lista-ul__vineta(style="color: #6EC7E3; font-size: 2rem")
                     | #[b Ejemplo:]
-                p.mb-0 La tecnología educativa transforma el aprendizaje en el siglo XXI, mediante herramientas digitales innovadoras que facilitan la comunicación entre estudiantes y docentes. Los procesadores de texto, plataformas virtuales y recursos multimedia, permiten crear experiencias de aprendizaje más dinámicas y personalizadas. Esta revolución digital ha modificado sustancialmente los métodos tradicionales de enseñanza, promoviendo la colaboración y el acceso universal al conocimiento.
+                p.mb-0.text-end La tecnología educativa transforma el aprendizaje en el siglo XXI, mediante herramientas digitales innovadoras que facilitan la comunicación entre estudiantes y docentes. Los procesadores de texto, plataformas virtuales y recursos multimedia, permiten crear experiencias de aprendizaje más dinámicas y personalizadas. Esta revolución digital ha modificado sustancialmente los métodos tradicionales de enseñanza, promoviendo la colaboración y el acceso universal al conocimiento.
             .col-12.mb-0
               figure
                 img(src='@/assets/curso/temas/tema2/img-17.png', alt='Imagen decorativa')
@@ -454,7 +454,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/z_HK_Fb-fxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 

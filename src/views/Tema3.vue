@@ -171,60 +171,71 @@
 
     p.mb-4 Una empresa necesita que todos sus informes trimestrales tengan la misma apariencia. En lugar de dar instrucciones a cada empleado, el departamento de TI crea una plantilla de Word (.docx) con los siguientes estilos predefinidos: 
 
-    .row.justify-content-center.mb-5(data-aos="fade-left")
-      .col-md-8.col-lg-6.col-xl-5.col-xxl-3.mb-4.mb-xxl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              .row.justify-content-center.mb-3
-                .col-auto
-                  .px-2
-                    p.text-center.mb-0 #[b Título 1 (Informe trimestral)]
-              p.mb-0 Fuente Arial Black, 18 pts., Azul corporativo, espaciado anterior 24 pts.
-              br
-              br
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-17.png')})`}")
-      .col-md-8.col-lg-6.col-xl-5.col-xxl-3.mb-4.mb-xxl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              .row.justify-content-center.mb-3
-                .col-auto
-                  .px-2
-                    p.text-center.mb-0 #[b Título 2 (Sección)]
-              p.mb-0 Fuente Arial, 14 pts., Negrita, Negro, espaciado anterior 12 pts.
-              br
-              br
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-18.png')})`}")
-      .col-md-8.col-lg-6.col-xl-5.col-xxl-3.mb-4.mb-xxl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              .row.justify-content-center.mb-3
-                .col-auto
-                  .px-2
-                    p.text-center.mb-0 #[b Normal (Cuerpo de texto)]
-              p.mb-0 Fuente Calibri, 11 pts., Justificado, Interlineado 1.5, espaciado posterior 8 pts., sangría de primera línea 1.25 cm.
-              br
-              br
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-19.png')})`}")
-      .col-md-8.col-lg-6.col-xl-5.col-xxl-3.mb-4.mb-xxl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              .row.justify-content-center.mb-3
-                .col-auto
-                  .px-2
-                    p.text-center.mb-0 #[b Leyenda de Imagen]
-              p.mb-0 Fuente Calibri, 9 pts., Cursiva, Centrado.
-              br
-              br
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-20.png')})`}")
+    .desktop
+      .row.mb-5
+        .col-6.col-md-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4 Título 1 (Informe trimestral)
+                p.mb-0 Fuente Arial Black, 18 pts., Azul corporativo, espaciado anterior 24 pts.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-17.png')})`}")
+        .col-6.col-md-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4 Título 2 (Sección)
+                p.mb-0 Fuente Arial, 14 pts., Negrita, Negro, espaciado anterior 12 pts.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-18.png')})`}")
+        .col-6.col-md-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4 Normal (Cuerpo de texto)
+                p.mb-0 Fuente Calibri, 11 pts., Justificado, Interlineado 1.5, espaciado posterior 8 pts., sangría de primera línea 1.25 cm.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-19.png')})`}")
+        .col-6.col-md-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4 Leyenda de Imagen
+                p.mb-0 Fuente Calibri, 9 pts., Cursiva, Centrado.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-20.png')})`}")
     
+    .movil
+      .row.justify-content-center.align-items-center.mb-5
+        .col-10
+          .tarjeta.tarjeta--BG04.p-4
+            figure.mb-3
+              img(src='@/assets/curso/temas/tema3/img-17_1.png', alt='Imagen decorativa')
+            h4 Título 1 (Informe trimestral)
+            p.mb-0 Fuente Arial Black, 18 pts., Azul corporativo, espaciado anterior 24 pts.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-10
+          .tarjeta.tarjeta--BG04.p-4
+            figure.mb-3
+              img(src='@/assets/curso/temas/tema3/img-18_1.png', alt='Imagen decorativa')
+            h4 Título 2 (Sección)
+            p.mb-0 Fuente Arial, 14 pts., Negrita, Negro, espaciado anterior 12 pts.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-10
+          .tarjeta.tarjeta--BG04.p-4
+            figure.mb-3
+              img(src='@/assets/curso/temas/tema3/img-19_1.png', alt='Imagen decorativa')
+            h4 Normal (Cuerpo de texto)
+            p.mb-0 Fuente Calibri, 11 pts., Justificado, Interlineado 1.5, espaciado posterior 8 pts., sangría de primera línea 1.25 cm.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-10
+          .tarjeta.tarjeta--BG04.p-4
+            figure.mb-3
+              img(src='@/assets/curso/temas/tema3/img-20_1.png', alt='Imagen decorativa')
+            h4 Leyenda de Imagen
+            p.mb-0 Fuente Calibri, 9 pts., Cursiva, Centrado.
+
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.col-12
         .cajon.cajon.color-secundario.p-4
@@ -244,7 +255,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/6LNc2nWLr4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 
