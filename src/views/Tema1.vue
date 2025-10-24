@@ -78,7 +78,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.col-12
         .cajon.cajon.color-primario.p-4
-          p.mb-0 En un entorno institucional, los procesadores de texto soportan la estandarización de documentos (circulares, informes, actas, instructivos), facilitan el cumplimiento de lineamientos de marca, y accesibilidad y habilitan ciclos de revisión y trabajo colaborativo. 
+          p.mb-0 En un entorno institucional, los procesadores de texto soportan la estandarización de documentos (circulares, informes, actas, instructivos), facilitan el cumplimiento de lineamientos de marca y accesibilidad, y habilitan ciclos de revisión y trabajo colaborativo. 
           
     p.mb-0 En resumen, se podría afirmar que, la tarea principal de los procesadores de texto es facilitar la elaboración de documentos escritos de manera eficiente y profesional. Sus objetivos fundamentales incluyen el incremento de la productividad, mediante la automatización de tareas repetitivas, la garantía de coherencia visual y estructural del documento, la habilitación de la colaboración entre múltiples usuarios y la simplificación de la revisión y corrección del contenido. 
 
