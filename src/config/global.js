@@ -329,11 +329,6 @@ export default {
           cargo: 'Evaluador instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
-        {
-          nombre: 'Ligia del Rosario Arregocés Osorio',
-          cargo: 'Evaluadora instruccional',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
       ],
     },
     {
