@@ -16,7 +16,7 @@ export default {
       tema: 'Conociendo a Word',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> validar el conocimiento adquirido sobre las diferentes funciones que se tienen en Microsoft Word, basado en la presentación de documentación de una manera más ordenada y estructurada.',
+        '<b>Objetivo:</b> validar el conocimiento adquirido sobre los diferentes estilos que se tienen en Microsoft Word, basado en la presentación de documentación de una manera más ordenada y estructurada.',
       preguntas: [
         {
           id: 1,

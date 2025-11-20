@@ -18,8 +18,8 @@
     .titulo-segundo.color-acento-contenido
       h2#t_3_1 3.1. Concepto e importancia
 
-    p Si se piensa en un estilo como una "etiqueta de formato", en lugar de aplicar manualmente varios atributos diferentes a cada título, simplemente se aplica el estilo "Título 1".
-    p.mb-5 La importancia de usar estilos se suele utilizar especialmente en documentos institucionales, por las siguientes razones: 
+    p.mb-0 Si se piensa en un estilo como una "etiqueta de formato", en lugar de aplicar manualmente varios atributos diferentes a cada título, simplemente se aplica el estilo "Título 1".
+    p.mb-4 La importancia de usar estilos se suele utilizar especialmente en documentos institucionales, por las siguientes razones: 
 
     .row.justify-content-center.ali.mb-0(data-aos="fade-left")
       .col-lg-12(data-aos="fade-down")

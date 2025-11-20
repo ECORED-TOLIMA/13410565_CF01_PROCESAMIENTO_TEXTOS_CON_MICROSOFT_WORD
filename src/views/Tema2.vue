@@ -270,21 +270,21 @@
     .row.justify-content-center.ali.mb-4(data-aos="fade-left")
       .col-lg-12(data-aos="fade-down")
         .tarjeta--container.row.mb-3
-          .col-xl.col-md-6.tarjeta.color-primario.p-5(style="background-color:#B0C2E5")
+          .col-xl.col-md-6.tarjeta.color-primario.p-4(style="background-color:#B0C2E5")
             .row.justify-content-center.mb-3
               .col-lg-6.col-6
                 figure
                   img(src='@/assets/curso/temas/tema2/img-19.svg', alt='Imagen decorativa')
             h4.text-center.mb-4 Sangría de primera línea
             p.mb-0 Desplaza únicamente la primera línea de cada párrafo hacia la derecha, tradicionalmente entre 1.27 cm (0.5 pulgadas) en documentos académicos. Esta convención señala visualmente el inicio de nuevos párrafos, sin requerir espacio adicional entre ellos.
-          .col-xl.col-md-6.tarjeta.color-secundario.p-5(style="background-color:#D5C6EA")
+          .col-xl.col-md-6.tarjeta.color-secundario.p-4(style="background-color:#D5C6EA")
             .row.justify-content-center.mb-3
               .col-lg-6.col-6
                 figure
                   img(src='@/assets/curso/temas/tema2/img-20.svg', alt='Imagen decorativa')
             h4.text-center.mb-4 Sangría francesa
             p.mb-0 También llamada sangría colgante, desplaza todas las líneas excepto la primera. Es estándar en listas de referencias bibliográficas, donde facilita la identificación rápida del inicio de cada entrada (American Psychological Association, 2020).
-          .col-xl.col-md-6.tarjeta.color-secundario.p-5(style="background-color:#6EC7E3")
+          .col-xl.col-md-6.tarjeta.color-secundario.p-4(style="background-color:#6EC7E3")
             .row.justify-content-center.mb-3
               .col-lg-6.col-6
                 figure
@@ -321,14 +321,16 @@
         .cajon.cajon.color-primario.p-4.mb-5
           p.mb-0 El interlineado define la distancia vertical entre líneas consecutivas de texto, mientras que el espaciado controla la separación entre párrafos. Ambos elementos son cruciales para la legibilidad y presentación profesional (Cassany, 2019).
         p.mb-5 Los siguientes, son los interlineados más comunes utilizados en Microsoft Word:
-        .row.align-items-center.mb-4(data-aos="zoom-in")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/temas/tema2/icono.svg', style="width: 45px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-1
-              h3.mb-0.ms-3 A. Interlineado simple
-        p Espacio mínimo entre líneas, utilizado cuando se requiere maximizar el contenido en espacio limitado, aunque puede reducir la legibilidad en textos extensos. En la siguiente figura, se aprecia la configuración del párrafo y un ejemplo con el contenido previamente relacionado:
+    
+    .row.align-items-center.mb-4(data-aos="zoom-in")
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/tema2/icono.svg', style="width: 45px" ,alt='').m-auto
+      .col-lg-auto.col-9.titulo01(style="z-index:1")
+        .p-1
+          h3.mb-0.ms-3 A. Interlineado simple
+
+    P Espacio mínimo entre líneas, utilizado cuando se requiere maximizar el contenido en espacio limitado, aunque puede reducir la legibilidad en textos extensos. En la siguiente figura, se aprecia la configuración del párrafo y un ejemplo con el contenido previamente relacionado:
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-8.col-12
@@ -431,7 +433,7 @@
           img(src='@/assets/curso/temas/tema2/icono.svg', style="width: 45px" ,alt='').m-auto
       .col-lg-auto.col-9.titulo01(style="z-index:1")
         .p-1
-          h3.mb-0.ms-3 Espaciado entre párrafos
+          h3.mb-0.ms-3 D. Espaciado entre párrafos
 
     .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(style="background-color:#B0C2E5")
       .bloque-texto-g__img(

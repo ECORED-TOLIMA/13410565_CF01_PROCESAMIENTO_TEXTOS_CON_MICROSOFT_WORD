@@ -19,13 +19,10 @@
     .titulo-segundo.color-acento-contenido
       h2#t_5_1 5.1. Concepto e inserción
 
-    p.mb-5 El encabezado es el área en el margen superior de la página y el pie de página es el área en el margen inferior. El contenido insertado en estas áreas (texto, imágenes, números de página) se repite en cada página de una sección, proporcionando información contextual importante.
-    
-    .bg-c1.px-md-5.px-4.mb-0
-      .row.justify-content-center.mb-4(data-aos="flip-up")
-        .col-lg-10.col-12
-          p Son elementos clave para la navegación y la identificación de documentos institucionales. Suelen contener:
+    p El encabezado es el área en el margen superior de la página y el pie de página es el área en el margen inferior. El contenido insertado en estas áreas (texto, imágenes, números de página) se repite en cada página de una sección, proporcionando información contextual importante.
+    p.mb-5 Son elementos clave para la navegación y la identificación de documentos institucionales. Suelen contener:
 
+    .bg-c1.px-md-5.px-4.mb-0
       .row.justify-content-center
         .col-lg-5.col-sm-7.col-10.mb-4(data-aos="flip-up")
           figure
