@@ -276,7 +276,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/img-19.svg', alt='Imagen decorativa')
             h4.text-center.mb-4 Sangría de primera línea
-            p.mb-0 Desplaza únicamente la primera línea de cada párrafo hacia la derecha, tradicionalmente entre 1.27 cm (0.5 pulgadas) en documentos académicos. Esta convención señala visualmente el inicio de nuevos párrafos, sin requerir espacio adicional entre ellos.
+            p.mb-0 Desplaza únicamente la primera línea de cada párrafo hacia la derecha, esta convención señala visualmente el inicio de nuevos párrafos, sin requerir espacio adicional entre ellos.
           .col-xl.col-md-6.tarjeta.color-secundario.p-4(style="background-color:#D5C6EA")
             .row.justify-content-center.mb-3
               .col-lg-6.col-6
